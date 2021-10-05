@@ -1,12 +1,23 @@
 h1{
-    color: #FFFFFF;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    color: #2C2F33;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
 }
 body{
-    background: #2C2F33;
-    background-blend-mode: soft-light;
+    background: #001220;
+    background-image: url('waves1.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
-h2{
-    color: #7289da;
-    font-family: 'Poppins', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+p{
+    color: #2C2F33;
+    font-family: 'Open Sans';
+}
+.intro-top{
+    position: relative;
+}
+.intro{
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFAFA;
 }
