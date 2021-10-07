@@ -1,2 +1,2 @@
 # pypke-pages
-Homepage &amp; Stuff For Pypke's Website
+Homepage & Stuff For Pypke's Website
