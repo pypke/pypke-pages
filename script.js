@@ -1,1 +1,0 @@
-const Pypke = "Pypke"
