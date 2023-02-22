@@ -10,10 +10,41 @@
         <link rel="stylesheet" href="css/style.css">
         <!-- Fontawesome icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <!-- Custom CSS for animations -->
+        <style>
+            .jumbotron {
+            background: #2C2F33;
+            color: #fff;
+            }
+            .jumbotron .btn-primary {
+            background-color: #7289DA;
+            border-color: #7289DA;
+            }
+            .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            }
+            .card-title i {
+            margin-right: 10px;
+            }
+            .card-title {
+            margin-bottom: 0;
+            }
+            .footer {
+            background-color: #2C2F33;
+            color: #fff;
+            }
+            .footer a {
+            color: #fff;
+            }
+            .footer a:hover {
+            color: #7289DA;
+            }
+        </style>
     </head>
     <body>
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Pypke</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -36,12 +67,12 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">Pypke</h1>
-                <p class="lead">A multi-purpose cat bot, with vast variety of useful commands and more coming by every update!! Moderation, Fun, Giveaway, Music, And More..</p>
+                <p class="lead">A multi-purpose cat bot, with a vast variety of useful commands and more coming with every update! From moderation to fun, giveaway, music, and more.</p>
                 <a href="#" class="btn btn-primary btn-lg">Learn more</a>
             </div>
         </div>
         <!-- Features section -->
-        <div class="container">
+        <div class="container mt-5 mb-5">
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4">
@@ -62,49 +93,54 @@
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-music"></i> Music</h5>
-                            <p class="card-text">Listen to your favorite songs with our easy-to-use music commands.</p>
+                            <h5 class="card-title"><i class="fas fa-bolt"></i> Utility</h5>
+                            <p class="card-text">Get things done quickly and efficiently with our useful utility commands.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-cloud-sun"></i> Weather</h5>
+                            <p class="card-text">Stay up-to-date with the latest weather conditions using our weather commands.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-award"></i> Giveaways</h5>
+                            <p class="card-text">Organize giveaways with ease using our powerful giveaway system. Choose winners automatically and announce them in seconds.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- End Features section -->
         <!-- Footer -->
-        <footer class="footer">
+        <footer class="bg-dark text-light py-3">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h5>About Pypke</h5>
-                        <p>Pypke is a multi-purpose cat bot designed to make your Discord server more fun and engaging. With a wide range of useful commands, Pypke makes it easy to moderate your server, entertain your members, and much more!</p>
+                        <p>&copy; 2023 Pypke Bot</p>
                     </div>
-                    <div class="col-md-3">
-                        <h5>Links</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Vote</a></li>
-                            <li><a href="#">Support</a></li>
+                    <div class="col-md-6">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                            <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+                            <li class="list-inline-item"><a href="#">Contact Us</a></li>
                         </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Connect with us</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#"><i class="fab fa-discord"></i> Discord</a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
-                            <li><a href="#"><i class="fab fa-github"></i> Github</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-center">&copy; 2023 Pypke. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+        <!-- End Footer --> 
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
+        <!-- End Scripts -->
     </body>
 </html>
